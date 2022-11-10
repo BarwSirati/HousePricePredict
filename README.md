@@ -1,5 +1,5 @@
 ## Describe
-#### This repo is a part of ELEMENTARY DIFFERENTIAL EQUATIONS A LINEAR ALGEBRA 
+#### This repo is a part of ELEMENTARY DIFFERENTIAL EQUATIONS A LINEAR ALGEBRA | CE60 KMITL
 ## Main Idea 
 #### We use Linear Regression for predict house price in usa!!!
 
