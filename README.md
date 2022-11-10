@@ -1,11 +1,11 @@
-### Describe
+## Describe
 ---------------------------------------
 #### This repo is a part of ELEMENTARY DIFFERENTIAL EQUATIONS A LINEAR ALGEBRA 
 ### Main Idea 
 ---------------------------------------
 #### We use Linear Regression for predict house price in usa!!!
 
-### Install
+## Install
 ---------------------------------------
 ```bash
 git clone https://github.com/BarwSirati/Linear.git
@@ -18,12 +18,12 @@ cd Linear/
 ```bash
 yarn
 ```
-### Run Dev
+## Run Dev
 ---------------------------------------
 ```bash
 yarn dev
 ```
-### Build Production
+## Build Production
 ---------------------------------------
 ```bash
 yarn build
