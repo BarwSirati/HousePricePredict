@@ -77,7 +77,7 @@ const Home = () => {
                   $ {price}
                 </div>
                 <button
-                  className="btn bg-yellow-500 border-none hover:bg-yellow-400 hover:border-yellow-500 focus:border-yellow-500"
+                  className="btn bg-yellow-500 text-white font-bold border-none hover:bg-yellow-400 hover:border-yellow-500 focus:border-yellow-500"
                   onClick={() => {
                     reset();
                   }}
