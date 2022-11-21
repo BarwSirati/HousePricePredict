@@ -87,6 +87,15 @@ const Home = () => {
               </div>
             </div>
           </div>
+          <a
+            href="https://github.com/sanfong/HouseLinReg/blob/main/USAHouseLinearRegression.ipynb"
+            target="blank"
+          >
+            <div className="flex font-bold">
+              <VscGithubInverted className="text-2xl text-white" />
+              &nbsp;Powered By Sanfong
+            </div>
+          </a>
         </Fragment>
       ) : (
         <Fragment>
