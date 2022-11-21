@@ -4,7 +4,6 @@
 
 * {
   font-family: "Prompt", sans-serif;
-  color:#000;
 }
 .input-form {
 	@apply text-black p-2 w-full bg-gray-300 rounded-r-lg border transition-colors focus:bg-white focus:outline-none focus:shadow-xl;

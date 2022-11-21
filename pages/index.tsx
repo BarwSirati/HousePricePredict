@@ -3,6 +3,7 @@ import { Income, Age, Room, Bedroom, Population } from "../components";
 import { GrLinkNext, GrPrevious } from "react-icons/gr";
 import { IoMdSave } from "react-icons/io";
 import { FaMoneyBillAlt } from "react-icons/fa";
+import { VscGithubInverted } from "react-icons/vsc";
 import { FiRefreshCcw } from "react-icons/fi";
 const Home = () => {
   const [page, setPage] = useState(0);
@@ -152,6 +153,15 @@ const Home = () => {
               </div>
             </div>
           </div>
+          <a
+            href="https://github.com/sanfong/HouseLinReg/blob/main/USAHouseLinearRegression.ipynb"
+            target="blank"
+          >
+            <div className="flex font-bold">
+              <VscGithubInverted className="text-2xl text-white" />
+              &nbsp;Powered By Sanfong
+            </div>
+          </a>
         </Fragment>
       )}
     </div>
