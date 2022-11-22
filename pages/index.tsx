@@ -5,6 +5,7 @@ import { IoMdSave } from "react-icons/io";
 import { FaMoneyBillAlt } from "react-icons/fa";
 import { VscGithubInverted } from "react-icons/vsc";
 import { FiRefreshCcw } from "react-icons/fi";
+import Image from "next/image";
 const Home = () => {
   const [page, setPage] = useState(0);
   const [show, setShow] = useState(false);
@@ -162,13 +163,14 @@ const Home = () => {
               </div>
             </div>
           </div>
+          <Image src={"/image/cat.gif"} alt="" width={300} height={200} />
           <a
             href="https://github.com/sanfong/HouseLinReg/blob/main/USAHouseLinearRegression.ipynb"
             target="blank"
           >
-            <div className="flex font-bold">
+            <div className="flex font-bold rainbow">
               <VscGithubInverted className="text-2xl text-white" />
-              &nbsp;Powered By Sanfong
+              &nbsp;<span className="underline">Powered By Sanfong</span>
             </div>
           </a>
         </Fragment>
